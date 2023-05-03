@@ -1,4 +1,7 @@
-# Migrate(Local)
+# hello-d1
+Cloudflare D1 sample
+
+## Migrate(Local)
 ```bash
 $ wrangler d1 execute sample --local --file=./db/db.sql 
 ```
@@ -8,7 +11,7 @@ check
 $ wrangler d1 execute sample --local --command='SELECT * FROM memos'
 ```
 
-# Deply
+## Deply
 ```bash
 $ wrangler publish
 ```
